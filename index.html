@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>English Olempic DIU</title>
+</head>
+<body>
+
+    <div class="main_div">
+        <div class="container">
+            <div class="nav" style="display: flex; padding: 8px 0px; align-items: center;">
+                <img style="width: 150px;" src="image/diu.png">
+                <a style="display: flex; justify-content: end; align-items: center;margin-left: auto;font-size: 20px;background-color: rgba(30, 165, 154, 0.25) !important;padding: 5px 20px;text-decoration: none;color: #1ea59a !important;" href="#">back</a>
+            </div>
+            <h1 style="text-align: center;font-weight: bold;font-size: 45px;">Daffodil English Olympics 2021</h1>
+            <div class="row " >
+                <div class="cover_left col-md-7 " style="justify-content: center;
+                display: flex;
+                flex-direction: column;">
+                   
+                    <h2 class="get_certificate_h2" style="font-size: 35px;margin-top: 180px;">Get Your Certificate Now</h2>
+                    <main>
+                    <input class="certificate_input" style="font-size: 19px;border-radius: 5px; padding-left: 11px; margin: 10px 0px;border: 0; width: 60%; height: 50px;font-size: 15px;" type="text" name="name" id="name" autocapitalize="name" placeholder="Enter Your Name" required> <br>
+                    <button class="certificate_btn"  id="submit">Get Certificate</button>
+                    </main>
+                </div>
+                <div class="cover_right col-md-5">
+                    <img style="width: 100%; margin: 10px 0px;"  src="./image/img-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- 
+    <header>
+        <img src="logo.png" alt="logo">
+        <h2>Get Your Certificate</h2>
+        <h1><a target="_blank" href="https://t-software4.blogspot.com/">By T-Software Education Accedmye</a></h1>
+    </header>
+
+    <main>
+        <label for="name">Enter Your Name</label>
+        <input type="text" name="name" id="name" autocapitalize="name" placeholder="Your Name" required> 
+        <button id="submit">Get Certificate</button>
+    </main> -->
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="FileSever.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
